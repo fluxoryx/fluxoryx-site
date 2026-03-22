@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluxoryx - Submit Your Issue</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #0b0f14;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+input, textarea {
+    width: 90%;
+    max-width: 500px;
+    margin: 10px;
+    padding: 10px;
+}
+button {
+    padding: 12px 20px;
+    background: #2f81f7;
+    color: white;
+    border: none;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Payment Received ✅</h1>
+<p>Please submit your issue below so we can begin.</p>
+
+<form action="https://formspree.io/f/xyknqkly" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required><br>
+<input type="email" name="email" placeholder="Your Email" required><br>
+<input type="text" name="domain" placeholder="Domain / Server"><br>
+
+<textarea name="issue" placeholder="Describe your issue in detail" rows="6" required></textarea><br>
+
+<button type="submit">Submit Issue</button>
+
+</form>
+
+</body>
+</html>
